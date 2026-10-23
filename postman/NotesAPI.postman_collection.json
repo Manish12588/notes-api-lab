@@ -1,0 +1,91 @@
+{
+  "info": {
+    "_postman_id": "bc529f0e-5c9c-45af-acc2-78f7b5da96ec",
+    "name": "NotesAPI",
+    "description": "## NotesAPI\n\nThe **NotesAPI** collection provides a complete set of RESTful endpoints for managing notes. It covers the full CRUD lifecycle — creating, retrieving, updating, and deleting notes — as well as partial update support.\n\nThe collection is organized into five folders by HTTP method:\n\n- **POSTAPIs** — Create new notes\n    \n- **GETAPIs** — Retrieve existing notes (single or list)\n    \n- **PUTAPIs** — Fully replace/update a note\n    \n- **PATCHAPIs** — Partially update a note's fields\n    \n- **DELETEAPIs** — Remove notes\n    \n\nUse this collection to develop, test, and validate the NotesAPI across all supported operations.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "9494331"
+  },
+  "item": [
+    {
+      "name": "GETAPIs",
+      "item": [
+        {
+          "name": "Get All Notes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "POSTAPIs",
+      "item": [
+        {
+          "name": "Create Note",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "PUTAPIs",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "DELETEAPIs",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "PATCHAPIs",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "PATCH",
+            "header": [],
+            "url": {
+              "raw": ""
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
